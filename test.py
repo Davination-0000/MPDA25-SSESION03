@@ -1,8 +1,10 @@
 #this is my first github file
 
-import math
+import Rhino.Geometry as rg 
+
+def add(a,b):
+    return a + b 
 
 
-#creating
-
-#another change
+def make_circle(radius):
+    return rg.Circle(rg.Plane.World, radius)
